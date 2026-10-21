@@ -19,4 +19,39 @@ The goal is to classify patients as diabetic or non-diabetic using clinical feat
 Accuracy: To be added after training
 
 ## 📁 Project Structure
+diabetes-prediction-ml/
+│── data/
+│── notebooks/
+│── src/
+│── visuals/
+└── README.md
 
+Code
+
+## 🚀 How to Run
+Install dependencies:
+pip install -r requirements.txt
+
+Code
+Run preprocessing:
+python src/preprocess.py
+
+Code
+
+Train the model:
+python src/train_model.py
+
+Code
+
+Evaluate:
+python src/evaluate.py
+
+Code
+
+## 📈 Visualisations
+Includes:
+- Confusion matrix
+- Feature importance plot
+
+## 🧑‍💻 Author
+**Samuel Ofori**
